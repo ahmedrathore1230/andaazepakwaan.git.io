@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    font-family: 'Cursive', sans-serif;
+    color: #333;
+}
+
+.card-body {
+    min-height: 160px;
+}
+
+.review-card p {
+    margin: 0;
+}
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to bottom, #ffc107, #ffd54f);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+/* Categories Section */
+.bg-black {
+    background-color: #000;
+}
+
+.bg-black h2 {
+    font-size: 2rem;
+}
+
+.btn-warning {
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: transparent;
+    color: #ffc107;
+    border: 2px solid #ffc107;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.card-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+.card .btn-danger {
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    padding: 8px 20px;
+    transition: background 0.3s;
+}
+
+.card .btn-danger:hover {
+    background-color: #ff5252;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(to bottom, #ffd54f, #ffc107);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff5252;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    footer a {
+        font-size: 0.9rem;
+    }
+}
+/* Order Confirmation Page */
+header {
+    background: linear-gradient(to bottom, #ffc107, #ff9800);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+main img {
+    border-radius: 50%;
+}
+
+main h2 {
+    color: #4caf50;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main .border {
+    border: 2px solid #ffc107;
+    border-radius: 8px;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.btn-warning:hover {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+}
